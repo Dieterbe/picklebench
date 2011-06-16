@@ -6,3 +6,7 @@ Be aware that loading should be faster because of 2 reasons:
 Depends:
 * python (tested with 2.7)
 * jsonpickle (tested with 3.1)
+
+Running:
+* run runall.sh to run all benchmarks
+* Have some free diskspace, about half as much as your RAM should definitely be enough
