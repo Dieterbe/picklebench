@@ -1,0 +1,8 @@
+Simple python pickle methods benchmark program.
+Be aware that loading should be faster because of 2 reasons:
+* disk reads are faster than writes
+* unless the files are very big (~size of RAM or bigger), they'll come from the Linux block cache in RAM
+
+Depends:
+* python (tested with 2.7)
+* jsonpickle (tested with 3.1)
